@@ -1,0 +1,120 @@
+
+
+section{
+    padding: 30px;
+    margin: auto;
+}
+
+
+header{
+    text-align: center;
+    
+}
+
+header a{
+    text-align: center;
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+header nav{
+    background-color: purple;
+    font-weight: bold;
+    padding: 15px;
+    margin: 15px;
+}
+
+header img{
+    margin: auto;
+    display: block;
+}
+/*----chat.html-----*/
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 950px;
+    margin: auto;
+
+}
+main h1{
+    text-align: center;
+}
+/*------contact.html-----*/
+main div{
+    padding: 20px;
+    
+    
+}
+main div p{
+    color: black;
+    
+}
+article{
+    border-bottom: 1px solid purple;
+    padding-bottom: 50px;
+}
+article img{
+    border-radius: 2ch;
+}
+
+h2{
+    color: purple;
+}
+.left{
+    float: left;
+    margin-right: 15px;
+}
+.right{
+    float: right;
+    margin-left: 15px;
+}
+.clear{
+    clear: both;
+}
+main a{
+    background-color: violet;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 7px;
+}
+aside{
+    background-color: rgb(243, 219, 243);
+    padding: 35px;
+    margin: auto;
+    border:  1px solid blueviolet;
+    font-style: italic;
+    width: 30%;
+    border-radius: 2ch;
+    
+}
+footer{
+    background-color: purple;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+footer a{
+    color: white;
+    margin: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* //-------TABLETTE------// */
+
+@media (max-width: 1024px) {
+    main{
+        flex-direction: column;
+    }
+}
+
+/* //-------MOBILE---------// */
+
+@media (max-width: 767px) {
+body{
+    flex-direction: column;
+}
+}
+    
